@@ -40,6 +40,7 @@ function init (){
         flightStatus.innerHTML = "The shuttle has landed."
         shuttleBackgroundColor.style.background = '';
         y = 250;
+        x = 0;
         number = 0;
         shuttleHeight.innerHTML = number;
         rocket.style.left = `0px`;
@@ -51,6 +52,7 @@ function init (){
             flightStatus.innerHTML = "Mission aborted.";
             shuttleBackgroundColor.style.background = "";
             y = 250;
+            x = 0;
             number =0;
             shuttleHeight.innerHTML = number;
             rocket.style.left = `0px`;
